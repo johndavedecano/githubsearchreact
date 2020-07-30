@@ -77,11 +77,11 @@ function App() {
         <img src={repo.owner.avatar_url} alt={repo.full_name} />
         <div className="pl-4 d-flex flex-column flex-grow-1">
           <h6 className="font-weight-bold">
-            <a href="{repo.html_url}">{repo.full_name}</a>
+            <a href={repo.html_url}>{repo.full_name}</a>
           </h6>
           <p>{repo.description}</p>
         </div>
-        <a href="{repo.html_url}" className="btn btn-sm btn-primary">
+        <a href={repo.html_url} className="btn btn-sm btn-primary">
           Follow
         </a>
       </div>
